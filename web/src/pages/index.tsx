@@ -3,7 +3,7 @@ interface HomeProps {
 }
 
 export default function Home({ count }: HomeProps) {
-  return <h1>hello world {count}</h1>;
+  return <h1 className="text-red-400">hello world {count}</h1>;
 }
 
 export const getServerSideProps = async () => {
